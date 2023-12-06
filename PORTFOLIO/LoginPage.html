@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(37, 226, 163);
+            justify-content: center;
+            display: flex;
+           
+            
+        }
+        
+        
+        .loginpage{
+            width: 400px;
+            height: 470px;
+            margin-top: 130px;
+            background-color: black;
+            border-radius: 10px;
+            border: 3px solid rgb(37, 226, 163);
+            
+            box-shadow: 30px 30px 20px black;
+           animation: loginpageanimation 2s  infinite linear;
+
+
+        }
+        @keyframes loginpageanimation {
+            from{border-color: rgb(37, 226, 163); rotate: border-right;background-color: purple;}
+            to{border-color: purple; rotate: border-left;background-color:rgb(37, 226, 163) ;}
+        }
+        .heading{
+            color: azure;
+            padding: 10px;
+            padding-left: 110px;
+            
+        }
+        .email{
+            padding-left: 30px;
+        }
+        input{
+           
+            width: 300px;
+            height: 40px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: blanchedalmond;
+            background-color: black;
+            border: 2px solid white;
+            border-radius: 5px;
+            animation: loginpageanimation 2s  infinite linear;
+            
+        }
+        .password{
+            padding-left: 30px;
+            padding-top: 20px;
+        }
+
+        .input{
+            width: 300px;
+            height: 40px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: blanchedalmond;
+            background-color: black;
+            border: 2px solid white;
+            border-radius: 5px;
+        }
+        .h3{
+            color:rgb(37, 226, 163) ;
+            padding-left: 31px;
+            padding-bottom: 10px;
+        }
+        .login{
+            color: antiquewhite;
+            width: 302px;
+            height: 37px;
+            border-radius: 5px;
+            text-align: center;
+            padding-top: 17px;
+            margin-left: 32px;
+            border: 2px solid white;
+            background-color: rgb(37, 226, 163);
+            animation: loginpageanimation 2s  infinite linear;
+
+        }
+        .h4{
+            color: white;
+            padding-top: 31px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="border">
+    <div class="loginpage">
+
+      <div class="heading">  <h1>Login Form</h1></div>
+
+      <div class="email"><input type="text" placeholder="Email Address"></div>
+
+      <div class="password"><input type="password" placeholder="password"></div>
+
+      <div class="h3"><h4>forgot password ?</h4></div>
+
+      <div class="login"><b>Login</b></div>
+
+      <div class="h4"><h4>Not a member ?<b style="color: rgb(37, 226, 163);"> SignUp Now</b></div>
+
+   
+</div>
+</div>
+</body>
+</html>

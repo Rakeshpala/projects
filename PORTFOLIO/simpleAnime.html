@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>loader</title>
+    <style>
+
+        body{
+            background-color: black;
+        }
+        #heading1{
+           
+                                text-align: center;
+                                display: flex;
+                                color: grey;
+                               
+                                margin-left: 23%;
+                                font-size: 800%;
+                                margin-top: 10%;
+                        
+                            }
+            
+
+        
+
+       
+        .Bigcircle{
+             width: 200px;
+             height: 200px;
+             padding: 30px;
+             margin-left: 40%;
+             margin-top: 12%;
+             border-left: 10px solid orange;
+             border-radius: 50%;
+             animation: spin 5s    infinite linear;
+             
+        }
+        @keyframes spin {
+            0%{transform: rotate(0deg);}
+            100%{transform: rotate(360deg);}
+        }
+
+
+        .middilecircle{
+             width: 190px;
+             height: 190px;
+             padding: 10px;
+             border-left: 5px solid white;
+             border-radius: 50%;
+             animation: antispin 1s    infinite linear;
+        }
+
+        @keyframes antispin {
+            0%{transform: rotate(0deg);}
+            100%{transform: rotate(-360deg);}
+        }
+        .innercircle{
+            width: 130px;
+            height: 130px;
+            margin:10px;
+            border-right: 5px solid rgb(3, 92, 3);
+            border-radius: 50%;
+            animation:spin2 1s infinite linear ;
+        }
+        @keyframes spin2 {
+            0%{transform: rotate(0deg);}
+            100%{transform: rotate(360deg);}
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="Bigcircle">
+      <div class="middilecircle">
+        <div class="innercircle">
+
+        </div>
+
+      </div>
+
+    </div>
+    <div id="heading1">ANIMATION</div>
+</body>
+</html>

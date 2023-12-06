@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            background-color:rgb(191, 194, 197);
+            animation: cardanimation 6s infinite linear;
+          
+        }
+        .parent{
+            display: flex;
+            gap: 50px;
+            margin-top: 190px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-right: 120px;
+            
+            
+          
+          
+           
+        }
+        .firstcard{
+            border: 2px solid black;
+            width: 250px;
+            height: 350px;
+            text-align: center;
+            border-radius: 6px;
+            box-shadow: 10px 8px 15px black;
+            background-color:  rgb(27, 27, 31);
+            color: yellow;
+            font-weight: 600;
+            
+           
+            
+        }
+        .firstcard:hover{
+            zoom: 80%;
+        }
+        .below1{
+            width: 250px;
+            height: 100px;
+            border-top: 2px  solid black;
+            background-color: yellow;
+            margin-top: 230px;
+
+        }
+        .secondcard{
+            border: 2px solid black;
+            width: 250px;
+            height: 350px;
+            text-align: center;
+            border-radius: 6px;
+            box-shadow: 10px 8px 15px black;
+            background-color:  rgb(27, 27, 31);
+            color: red;
+            font-weight: 600;
+           
+        }
+        .secondcard:hover{
+            zoom: 80%;
+        }
+        .below2{
+            width: 250px;
+            height: 100px;
+            border-top: 2px  solid black;
+            background-color: red;
+            margin-top: 230px;
+        }
+
+        .thirdcard{
+            border: 2px solid black;
+            width: 250px;
+            height: 350px;
+            text-align: center;
+            border-radius: 6px;
+            /* background-color: black; */
+            box-shadow: 10px 8px 15px black;          
+            background-color:  rgb(27, 27, 31);
+            color: green;
+            font-weight: 600;
+            
+
+        }
+        .thirdcard:hover{
+            zoom: 80%;
+        }
+        .below3{
+            width: 250px;
+            height: 100px;
+            border-top: 2px  solid black;
+            background-color: green;
+            margin-top: 230px;
+            
+        }
+        .fourthcard{
+            border: 2px solid black;
+            width: 250px;
+            height: 350px;
+            text-align: center;
+            border-radius: 6px;
+            box-shadow: 10px 8px 15px black;
+            background-color:  rgb(27, 27, 31);
+            color: blue;
+            font-weight: 600;
+        }
+        .fourthcard:hover{
+            zoom: 80%;
+        }
+
+        .below4{
+            width: 250px;
+            height: 100px;
+            border-top: 2px solid black;
+            background-color: blue;
+            margin-top: 230px;
+            
+
+        }
+        @keyframes cardanimation {
+            0%{width: 25%;}
+            25%{width: 50%;}
+            50%{width: 75%;}
+            100%{width: 100%;}
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="firstcard">FirstCard
+
+            <div class="below1">YELLOW CARD</div>
+        </div>
+
+
+        <div class="secondcard">SecondCard
+            <div class="below2">RED CARD</div>
+        </div>
+
+
+        <div class="thirdcard">ThirdCard
+            <div class="below3">GREEN CARD</div>
+        </div>
+
+
+        <div class="fourthcard">FourthCard
+            <div class="below4">BLUE CARD</div>
+        </div>
+
+
+    </div>
+</body>
+</html>
